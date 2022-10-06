@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="./DOM-getElementsByClassName_files/styles.css">  
+        <title>DOM-getElementsByClassName</title>
+
+
+    </head>
+    <body>
+        <div id="linux">
+            <div class="ubutu">
+                ubutu
+                <div class="elementaryos">elementary OS</div>
+            </div>
+            <div class="debian">Debian</div>
+        </div>
+
+
+        <script>
+
+            console.log(
+                document.querySelector(".elementaryos").parentNode.parentNode.parentNode
+            )
+        </script>
+        <div id="wrap">
+            <header>
+                <h1>Nome do site</h1>
+                <nav>
+                    <ul>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Menu 1</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Menu 2</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Menu 3</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Menu 4</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Menu 5</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="content">
+                <section>
+                    <h2>Titulo da seção</h2>
+                    <p> conteúdo da seção</p>
+                </section>
+                <article>
+                    <h2>Titulo do artigo</h2>
+                    <p>conteúdo do artigo</p>
+                </article>
+            </div>
+            <div id="sidebar">
+                <aside>
+                    <ul>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Submenu 1</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Submenu 2</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Submenu 3</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Submenu 4</a></li>
+                        <li><a href="file:///C:/xampp/htdocs/gilbert/n%C3%A3o%20sei/script/index.html#">Submenu 5</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <footer>
+                Rodapé do site
+            </footer>
+        
+        </div>
+
+        <div class="urso">rrss</div>
+        <div class="urso">rtrs</div>
+        <button>oi</button>
+
+        <script>
+
+            console.log(
+
+              document.getElementsByTagName("button")[0].innerHTML
+            )
+
+        </script>
+        <script>
+
+            console.log(
+                
+              document.getElementsByClassName("urso")[1].innerHTML
+            )
+        </script>
+        <div id="anime">
+
+        <p>bakugo</p></div>
+        <script>
+            var midorya = document.createElement("p");
+            midorya.innerHTML = "midorya";
+
+            var bakugo = document.createElement("p");
+            bakugo.innerHTML = "bakugo";
+
+
+            document.getElementById("anime").appendChild(midorya);
+            document.getElementById("anime").appendChild(bakugo);
+
+            document.getElementById("anime").removeChild(midorya);
+        </script>
+        <script>
+            var img = document.createElement("img");
+            img.src="";
+
+            var p = document.createElement("p");
+            p.innerHTML = "olá, tudo bem?"
+
+            console.log(
+                img, p
+            )
+        
+        </script>
+        <script>
+
+            console.log(
+
+                document.createElement("div")
+            )
+        </script>
+    
+</body></html>
